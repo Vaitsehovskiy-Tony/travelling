@@ -1,0 +1,102 @@
+
+@import url('__item-bg/video__item-bg.css');
+@import url('__link/video__link.css');
+
+
+.video__item:first-of-type {
+    background: url(../../../../../images/colorsOfKamchatka.jpg) no-repeat;
+    background-size: contain;
+    width: 583px;
+    height: 323px;
+    border-radius: 5px;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .video__item:first-of-type {
+        width:465px;
+        height: 288px;  
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .video__item:first-of-type {
+        width: 456px;
+        height: 288px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video__item:first-of-type {
+        width: 352px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .video__item:first-of-type {
+        width: 352px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .video__item:first-of-type {
+        margin: 5px auto 8px;
+}
+}
+
+@media screen and (max-width: 320px) {
+    .video__item:first-of-type {
+        width: 288px;
+        height: 192px;
+    }
+}
+
+.video__item {
+    background: url(../../../../../images/observatory.jpg) no-repeat;
+    background-size: contain;
+    width: 583px;
+    height: 323px;
+    border-radius: 5px;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .video__item {
+        width: 456px;
+        height: 288px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .video__item {
+        width: 352px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .video__item {
+        width: 352px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .video__item{
+        margin: 0px auto 0;
+
+
+}
+}
+
+@media screen and (max-width: 320px) {
+    .video__item {
+        width: 288px;
+        height: 192px;
+    }
+}
+

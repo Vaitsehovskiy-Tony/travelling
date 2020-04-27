@@ -1,0 +1,17 @@
+
+@import url('__item/video__item.css');
+
+.video__container {
+    max-width: 1184px;
+    margin: 5% auto 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+@media screen and (max-width: 480px) {
+    .video__container {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}

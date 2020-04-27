@@ -1,0 +1,6 @@
+@import url('__main-text/intro__main-text.css');
+
+.intro__content-row {
+    display: flex;
+    margin: 25px 0 0 0;
+}

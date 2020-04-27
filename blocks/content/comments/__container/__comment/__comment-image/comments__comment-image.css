@@ -1,0 +1,28 @@
+
+.comments__comment-image {
+    max-width: 97px;
+    border-radius: 48.5px;
+    margin: 25px 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .comments__comment-image {
+    margin: 0px 0px 0 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .comments__comment-image {
+        margin: 7px auto 0;
+        order: 0;
+        padding: 0;
+        line-height: 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .comments__comment-image {
+        margin: -10px auto 0;
+
+    }
+}

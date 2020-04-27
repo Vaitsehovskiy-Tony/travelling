@@ -1,0 +1,19 @@
+.video__icon-play {
+    max-width: 41px;
+    margin: 7% 0 0 7%;
+    padding: 0;
+}
+
+@media screen and (max-width: 1280px) {
+    .video__icon-play {
+    padding: 10px 0 0 10px;
+     
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .video__icon-play {
+    padding: 10px 0 0 10px;
+     
+    }
+}

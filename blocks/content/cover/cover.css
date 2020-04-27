@@ -1,0 +1,39 @@
+
+@import url('__content/cover__content.css');
+
+.cover {
+    max-width: 94%;
+    margin: 7.5% auto 0;
+    background: url(../../../images/do-baikala-na-sobakah.png) no-repeat center center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+       max-width: 120%;
+       height: 562px;
+       margin: 8% 0 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+       max-width: 100%;
+       margin: 7.5% 0 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .cover {
+       max-width: 100%;
+       margin: 35% 0 0;
+       height: 272px;
+    }
+}

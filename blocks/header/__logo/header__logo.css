@@ -1,0 +1,13 @@
+.header__logo {
+    width: 17%;
+    min-width: 8rem;
+    padding:0;  
+    margin: 2% 0 0;
+    align-self: bottom;
+}
+
+@media screen and (max-width: 375px) {
+    .header__logo  {
+        margin: 0% 0 0;
+    }
+}

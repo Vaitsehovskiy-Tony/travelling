@@ -1,0 +1,27 @@
+@import url('__facts-item/intro__facts-item.css');
+
+.intro__facts {
+    max-width: 383px;
+    font-size: 13px;
+    line-height: 20px; 
+    font-weight: 400;  
+    margin-left: 0;
+    padding-left: 0;
+}
+
+
+@media screen and (max-width: 480px) {
+    .intro__facts {
+        font-size: 1em;
+        line-height: 1.5;
+        margin:10% 8% 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .intro__facts  {
+        line-height: 1.5;
+        font-size: 12px;
+        margin: 13% 0 0;
+    }
+}

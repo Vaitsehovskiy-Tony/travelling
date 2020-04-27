@@ -1,0 +1,35 @@
+
+@import url('__comment/comments__comment.css');
+
+.comments__container  {
+    display: grid;
+    grid-template: 1fr/1fr 1fr 1fr;
+    grid-gap: 2.5%;
+    margin: 3% auto 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .comments__container {
+    display: grid;
+    grid-template: 1fr/1fr 1fr 1fr;
+    grid-gap: 2.5%;
+    margin: 3% auto 0 auto;
+    max-width: 950px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .comments__container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .comments__container {
+    margin: 0 auto;
+    }
+}

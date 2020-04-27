@@ -1,0 +1,120 @@
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/content/lead/lead.css');
+@import url('../blocks/content/intro/intro.css');
+@import url('../blocks/content/photo-grid/photo-grid.css');
+@import url('../blocks/content/places/places.css');
+@import Url('../blocks/content/video/video.css');
+@import url('../blocks/content/comments/comments.css');
+@import url('../blocks/content/cover/cover.css');
+@import url('../blocks/footer/footer.css');
+
+
+@keyframes link-opacity {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.7;
+    }
+}
+
+@font-face {
+    font-family: "Inter";
+    src:
+    url(../fonts/Inter-Medium.ttf) format('ttf'),
+    url(../fonts/Inter-Medium.woff) format('woff'),
+    url(../fonts/Inter-Medium.woff2) format('woff2');
+    font-style: medium;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Inter";
+    src:
+    url(../fonts/Inter-Regular.ttf) format('ttf'),
+    url(../fonts/Inter-Regular.woff) format('woff'),
+    url(../fonts/Inter-Regular.woff2) format('woff2');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src:
+    url(../fonts/Inter-Bold.ttf) format('ttf'),
+    url(../fonts/Inter-Bold.woff) format('woff'),
+    url(../fonts/Inter-Bold.woff2) format('woff2');
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Inter";
+    src:
+    url(../fonts/Inter-Light.ttf) format('ttf'),
+    url(../fonts/Inter-Light.woff) format('woff'),
+    url(../fonts/Inter-Light.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 200;
+}
+
+
+.page {
+    background: #2A2C2F;
+    margin: 0 auto;
+    color: #ffffff;
+    max-width: 1280px; 
+    font-family: "Inter", Arial, sans-serif;
+}
+
+@media (max-width: 1280px) {
+    .page {
+        min-width: 1280px;
+        }
+    }
+@media (max-width: 1024px) {
+.page {
+    min-width: 1024px;
+    }
+}
+@media (max-width: 768px) {
+.page {
+min-width: 768px;
+}
+}
+@media (max-width: 375px) {
+.page {
+    min-width: 375px;
+    }
+}
+@media (max-width: 320px) {
+.page {
+    min-width: 320px;
+    }
+}
+
+
+.page-link:hover {
+    animation: 0.5s link-opacity forwards;
+
+}
+
+
+
+.content-subtitle {
+    margin: 28px auto 0 auto;
+    max-width: 640px;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 375px) {
+    .content-subtitle {
+     font-size: 16px;
+     line-height: 1.5;
+}
+}
+

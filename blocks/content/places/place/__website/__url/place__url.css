@@ -1,0 +1,9 @@
+.place__url {
+    max-width: 484px;
+    font-size: 1.5em;
+    line-height: 30px;
+    text-decoration: underline;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}

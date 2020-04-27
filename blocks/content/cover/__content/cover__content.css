@@ -1,0 +1,10 @@
+@import url('__subtitle/cover__subtitle.css');
+@import url('__title/cover__title.css');
+
+.cover__content {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+}

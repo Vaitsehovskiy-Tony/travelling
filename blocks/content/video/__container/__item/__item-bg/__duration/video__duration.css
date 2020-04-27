@@ -1,0 +1,23 @@
+.video__duration {
+    opacity: 1;
+    max-width: 44px;
+    margin: 4% 0 0 7%;
+    padding: 0;
+    font-size: 1em;
+    line-height: 1;
+    letter-spacing: 0.3em;
+}
+
+@media screen and (max-width: 480px) {
+    .video__duration {
+    padding: 10px 0 0 10px;
+     
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .video__duration {
+        padding: 5px 0 0 10px;
+         
+        }
+}
